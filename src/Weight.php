@@ -4,6 +4,7 @@ namespace Spatie\UnitConversions;
 
 class Weight
 {
+    /* @var float */
     private $kilograms;
 
     public static function fromKilogram(float $kilograms): self
