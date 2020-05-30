@@ -4,7 +4,6 @@ namespace Spatie\UnitConversions;
 
 class Weight
 {
-
     private $kilograms;
 
     public static function fromKilogram(float $kilograms): self
@@ -21,6 +20,4 @@ class Weight
     {
         return $this->kilograms * 2.204523;
     }
-
-
 }
